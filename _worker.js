@@ -1099,7 +1099,7 @@ https://example.com/subscription2">${content}</textarea>
                         <a href="https://t.me/CMLiussss" class="info-link">
                             📢 Telegram 交流群
                         </a>
-                        <a href="https://github.com/cmliu/CF-Workers-SUB" class="info-link">
+                        <a href="https://github.com/EvanderYang/CF-Workers-SUB" class="info-link">
                             🌟 GitHub 项目
                         </a>
                         <a href="#" class="info-link">
