@@ -1,6 +1,6 @@
 # ⚙ 自建汇聚订阅 CF-Workers-SUB
 
-![自建汇聚订阅 CF-Workers-SUB](./sub.png)
+![自建汇聚订阅 CF-Workers-SUB](./subn.png)
 
 这是一个将多个节点和订阅合并为单一链接的工具，支持自动适配与自定义分流，简化了订阅管理。
 
