@@ -1,3 +1,0 @@
-name = "cl"
-main = "src/index.js"  # 确保指向正确的入口文件
-compatibility_date = "2025-05-27"
