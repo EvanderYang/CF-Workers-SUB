@@ -1,5 +1,5 @@
 # ⚙ 自建汇聚订阅 CF-Workers-SUB
-# ⚙ 在 CMLIU/CF-Workers-SUB 基础上添加样式
+⚙ 在 CMLIU/CF-Workers-SUB 基础上添加样式
 
 ![自建汇聚订阅 CF-Workers-SUB](./subn.png)
 
