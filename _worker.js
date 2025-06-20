@@ -195,6 +195,7 @@ export default {
 						headers: {
 							"content-type": "text/plain; charset=utf-8",
 							"Profile-Update-Interval": `${SUBUpdateTime}`,
+							"Profile-web-page-url": request.url.includes('?') ? request.url.split('?')[0] : request.url,
 							//"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
 						}
 					});
@@ -207,6 +208,7 @@ export default {
 						"Content-Disposition": `attachment; filename*=utf-8''${encodeURIComponent(FileName)}`,
 						"content-type": "text/plain; charset=utf-8",
 						"Profile-Update-Interval": `${SUBUpdateTime}`,
+						"Profile-web-page-url": request.url.includes('?') ? request.url.split('?')[0] : request.url,
 						//"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
 
 					},
@@ -216,6 +218,7 @@ export default {
 					headers: {
 						"content-type": "text/plain; charset=utf-8",
 						"Profile-Update-Interval": `${SUBUpdateTime}`,
+						"Profile-web-page-url": request.url.includes('?') ? request.url.split('?')[0] : request.url,
 						//"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
 					}
 				});
